@@ -16,8 +16,8 @@ Listener 是一套开源的语音输入产品：桌面软件把语音变成干�
 
 没有键盘也能用：Listener Type 直接用电脑麦克风工作。配上键盘后，单击旋钮开始说话，六颗状态灯告诉你设备在想什么：绿是好了，金是在听，紫是在想，蓝是蓝牙，白是充电，红是有事——完整[灯语说明在这里](https://github.com/Listener-ai-Macau/Listener-Firmware/blob/master/README.zh.md#灯在说什么)。
 
-**为什么是 Listener**：说完的话自动去口癖、补标点、理出结构，落进光标就能发；说声唤醒词就能免动手录音，可选声纹让设备优先认你的声音。软件开源免费、今天就能用；键盘随附云服务订阅，透明键帽加金属旋钮，六颗灯替你盯着进度。
+**为什么是 Listener**：说一段话，口癖去了、标点补了、结构理好了，文字直接落在光标处。说声「开始录音」就开工，不用碰电脑。软件开源免费，现在就能用；键盘随附订阅——透明键帽、金属旋钮，六颗灯告诉你它进行到哪。
 
-**Why Listener**: speech comes out cleaned, punctuated, and structured, ready to send at the cursor; a wake phrase starts recording hands-free, and an optional voiceprint keeps it tuned to you. The app is open source and free today; the keyboard ships with a bundled cloud subscription, clear keycaps, a metal knob, and six lights that watch the progress for you.
+**Why Listener**: you talk, and it comes out cleaned, punctuated, and structured at the cursor. Say the wake phrase and it records — hands off the computer. The app is open source and free today; the keyboard ships with a bundled subscription, clear keycaps, a metal knob, and six lights that tell you where things stand.
 
 **快速入口**：[下载 Listener Type](https://github.com/Listener-ai-Macau/Listener-Type/releases) · [固件发布](https://github.com/Listener-ai-Macau/Listener-Firmware/releases) · [使用说明](https://github.com/Listener-ai-Macau/Listener-Type/blob/master/docs/USAGE.md)
