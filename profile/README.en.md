@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero-en-mobile-dark.png">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero-en-dark.png">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero-en-mobile.png">
-  <img src="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero-en.png" alt="Listener" width="1600">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero-en-mobile-dark.png?v=20261001-brand">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero-en-dark.png?v=20261001-brand">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero-en-mobile.png?v=20261001-brand">
+  <img src="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero-en.png?v=20261001-brand" alt="Listener · Open-source voice input" width="1600">
 </picture>
 
 **English** · [Chinese](https://github.com/Listener-ai-Macau/.github/blob/main/profile/README.md)
