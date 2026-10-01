@@ -1,23 +1,43 @@
-# Listener
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero-mobile-dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero-dark.png">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero-mobile.png">
+  <img src="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/org-hero.png" alt="Listener" width="1600">
+</picture>
 
-说话，文字出现在当前光标。
-Speak, and the text appears at your cursor.
+**简体中文** · [English](https://github.com/Listener-ai-Macau/.github/blob/main/profile/README.en.md)
 
-Listener 是一套开源的语音输入产品：桌面软件把语音变成干净的文字并插入你正在输入的地方，语音键盘把收音、实体控制和状态灯放到手边。两者各自独立开源，配合使用体验最完整。
+**长消息、邮件和笔记，用说话起草。文字回到你正在使用的输入框。**
 
-| 仓库 | 是什么 |
+电脑麦克风即可使用；搭配语音键盘，把开始、停止与状态提示放到手边。
+
+**[下载 Windows 软件](https://github.com/Listener-ai-Macau/Listener-Type/releases)** · [折页使用说明](https://github.com/Listener-ai-Macau/Listener-Type/blob/master/docs/manuals/Listener-fold-ZH.pdf) · [探索语音键盘](https://github.com/Listener-ai-Macau/Listener-Firmware)
+
+> **硬件处于预售阶段，购买入口尚未公布。软件可先独立使用。**
+
+**软件免费开源，云服务按提供方单独计费。** 自备识别服务凭据；没有 API Key，可先准备 Windows 本地模型，用原文模式（Raw）听写。整理、翻译与问答需另配服务。
+
+[软件费用与无密钥起步](https://github.com/Listener-ai-Macau/Listener-Type/blob/master/README.zh-CN.md#软件免费服务费用分别计算)
+
+| 从这里开始 | 它为你做什么 |
 | --- | --- |
-| [Listener Type](https://github.com/Listener-ai-Macau/Listener-Type) | 桌面软件：录音、语音识别、文字整理与翻译、光标插入（Windows 安装包；macOS / Linux 可从源码构建，Apache-2.0） |
-| [Listener Firmware](https://github.com/Listener-ai-Macau/Listener-Firmware) | 语音键盘固件：麦克风采集、蓝牙音频与 HID、按键旋钮、状态灯、电源管理、OTA（ESP32-S3，Apache-2.0） |
+| **[01 / Listener Type](https://github.com/Listener-ai-Macau/Listener-Type)** | 用电脑麦克风听写；按需整理、翻译、加入个人词库，或对选中文本提问。 |
+| **[02 / Listener Firmware](https://github.com/Listener-ai-Macau/Listener-Firmware)** | 驱动语音键盘的麦克风、蓝牙音频、四键、旋钮、灯光、电源与无线更新。配合 Type 完成输入。 |
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Listener-ai-Macau/Listener-Firmware/master/docs/assets/readme/keyboard-front.jpg" alt="Listener 语音键盘：透明键帽、金属旋钮和状态灯" width="900" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/usage-scene-zh-mobile-dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/usage-scene-zh-dark.png">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/usage-scene-zh-mobile.png">
+  <img src="https://raw.githubusercontent.com/Listener-ai-Macau/.github/main/profile/assets/usage-scene-zh.png" alt="键盘与电脑输入场景组合示意；非实机操作照片" width="1200">
+</picture>
 
-没有键盘也能用：Listener Type 直接用电脑麦克风工作。配上键盘后，单击旋钮开始说话，六颗状态灯告诉你设备在想什么：绿是好了，金是在听，紫是在想，蓝是蓝牙，白是充电，红是有事——完整[灯语说明在这里](https://github.com/Listener-ai-Macau/Listener-Firmware/blob/master/README.zh.md#灯在说什么)。
+实物照片与软件截图来自仓库；电脑、输入框和示例文字为场景示意。
 
-**为什么是 Listener**：说一段话，口癖去了、标点补了、结构理好了，文字直接落在光标处。配上键盘，说声「开始录音」就开工，手不用碰电脑。软件开源免费，现在就能用；键盘随附订阅——透明键帽、金属旋钮，六颗灯告诉你它进行到哪。
 
-**Why Listener**: you talk, and it comes out cleaned, punctuated, and structured at the cursor. Say the wake phrase and it records — hands off the computer. The app is open source and free today; the keyboard ships with a bundled subscription, clear keycaps, a metal knob, and six lights that tell you where things stand.
+### 让表达少一次打断
 
-**快速入口**：[下载 Listener Type](https://github.com/Listener-ai-Macau/Listener-Type/releases) · [固件发布](https://github.com/Listener-ai-Macau/Listener-Firmware/releases) · [使用说明](https://github.com/Listener-ai-Macau/Listener-Type/blob/master/docs/USAGE.md)
+- **在原来的窗口里说。** 光标放好，按一下开始，再按一下结束；无法直接写入时使用剪贴板。
+- **按自己的方式表达。** 默认保留原文；需要时选择轻度整理、结构化、正式表达或翻译。
+- **知道它进行到哪。** 屏幕胶囊与设备状态灯，让录音、处理和完成有明确反馈。
+
+软件无需键盘也能使用。云端服务使用你配置的凭据，也可选择支持的本地识别模型；整理与翻译由所选文字服务处理。Windows 是当前主要安装与完整硬件音频路径。
